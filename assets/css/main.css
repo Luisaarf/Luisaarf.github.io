@@ -1766,8 +1766,8 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			font-size: 1.5em;
-			margin: 1em 0 2em 0;
+			font-size: 1.3em;
+			margin: 1em 7em 2em 7em;
 			line-height: 1.5em;
 			text-align: inherit;
 		}
@@ -2168,6 +2168,10 @@ input, select, textarea {
 		padding: 6em 0 6em 0;
 	}
 
+		.wrapper.style1{
+			padding-top: 1em
+		}
+
 		.wrapper.style2 {
 			padding-top: 0;
 		}
@@ -2423,9 +2427,21 @@ input, select, textarea {
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
 	}
+		#banner #bannerContent{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin: 2em 10em 2em 10em;
+		}
 
-		#banner header > p {
+		#banner #bannerContent  img{
+			width: 18%;
+		}
+
+		#banner #bannerContent  p {
 			margin-bottom: 0;
+			padding: 3em;
 		}
 
 /* Content */
@@ -2591,6 +2607,9 @@ input, select, textarea {
 			}
 
 		.carousel .reel {
+			display: flex;
+			align-items: flex-start;
+			width: fit-content;
 			white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
