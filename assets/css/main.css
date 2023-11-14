@@ -2709,6 +2709,19 @@ input, select, textarea {
 					justify-content: center;
 				}
 
+				#header header p {
+					bottom: 0%;
+				}
+
+				#header header a{
+					bottom: 3%;
+				}
+				
+				#header header img{
+					width: 70%;
+				}
+	
+
 		/* Banner */
 
 			#banner {
