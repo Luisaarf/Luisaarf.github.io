@@ -222,7 +222,7 @@ input, select, textarea {
 		}
 
 	.timestamp {
-		color: rgba(128, 128, 128, 0.75);
+		color: rgba(0, 0, 0, 0.75);
 		font-size: 0.8em;
 	}
 
@@ -2446,6 +2446,10 @@ input, select, textarea {
 
 /* Content */
 
+	#myprojects{
+		padding-bottom: 2rem;
+	}
+
 	#content > hr {
 		top: 3em;
 		margin-bottom: 6em;
@@ -3140,6 +3144,18 @@ input, select, textarea {
 
 			#banner {
 				padding: 3em 2em 3em 2em;
+			}
+
+			#banner #bannerContent{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				margin: 2em 10em 2em 10em;
+			}
+
+			#banner #bannerContent img {
+				width: 60%;
 			}
 
 		/* Sidebar */
