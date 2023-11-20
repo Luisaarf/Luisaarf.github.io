@@ -1908,7 +1908,6 @@ input, select, textarea {
 
 	ul.icons {
 		position: relative;
-		background: rgba(128, 128, 128, 0.05);
 		border-radius: 4em;
 		display: inline-block;
 		padding: 0.35em 0.75em 0.35em 0.75em;
@@ -2100,6 +2099,7 @@ input, select, textarea {
 
 	.post.stub {
 		text-align: center;
+		padding-bottom: 7rem;
 	}
 
 		.post.stub header {
