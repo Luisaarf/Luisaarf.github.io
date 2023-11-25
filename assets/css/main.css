@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #206E55;
 		line-height: 1.25em;
 	}
 
@@ -140,7 +140,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: #206E55;
 	}
 
 	em, i {
@@ -1942,7 +1942,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #483949;
+		color: #206E55;
 		margin: 0 0 1em 0;
 	}
 
@@ -2084,7 +2084,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: #206E55;
 		}
 
 			input[type="button"].alt:hover,
@@ -2146,7 +2146,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: #206E55;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
@@ -2828,6 +2828,10 @@ input, select, textarea {
 			.row > section, .row > article {
 				margin-bottom: 2em;
 			}
+			article > p, ul, iframe, #iframediv{
+				display: flex;
+				justify-content: center;
+			}
 
 			header > p {
 				font-size: 1.25em;
@@ -2965,7 +2969,7 @@ input, select, textarea {
 						font-style: normal;
 						content: '\f0c9';
 						color: #fff;
-						color: rgba(255, 255, 255, 0.75);
+						color: #f7d2c2;
 						text-align: center;
 						display: block;
 						font-size: 14px;
@@ -2975,7 +2979,7 @@ input, select, textarea {
 						position: absolute;
 						left: 50%;
 						margin-left: -40px;
-						background: rgba(132, 128, 136, 0.75);
+						background: #CC8766;
 						border-top: 0;
 						border-radius: 0 0 0.35em 0.35em;
 					}
@@ -2985,23 +2989,23 @@ input, select, textarea {
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
-				-moz-transform: translateY(-50vh);
-				-webkit-transform: translateY(-50vh);
-				-ms-transform: translateY(-50vh);
-				transform: translateY(-50vh);
+				-moz-transform: translateY(-15vh);
+				-webkit-transform: translateY(-15vh);
+				-ms-transform: translateY(-15vh);
+				transform: translateY(-15vh);
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 50vh;
+				height: 15vh;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
 				width: 100%;
 				z-index: 10002;
-				background: #1f1920;
+				background: #CC8766 ;
 				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
 				font-size: 1em;
 			}
@@ -3014,7 +3018,7 @@ input, select, textarea {
 					top: 0;
 					width: 100%;
 					height: 100%;
-					background: url("images/overlay.png");
+					background: url("images/overlay.png"); 
 					background-size: 128px 128px;
 				}
 
@@ -3068,17 +3072,17 @@ input, select, textarea {
 				}
 
 			body.navPanel-visible #page-wrapper {
-				-moz-transform: translateY(50vh);
-				-webkit-transform: translateY(50vh);
-				-ms-transform: translateY(50vh);
-				transform: translateY(50vh);
+				-moz-transform: translateY(15vh);
+				-webkit-transform: translateY(15vh);
+				-ms-transform: translateY(15vh);
+				transform: translateY(15vh);
 			}
 
 			body.navPanel-visible #navButton {
-				-moz-transform: translateY(50vh);
-				-webkit-transform: translateY(50vh);
-				-ms-transform: translateY(50vh);
-				transform: translateY(50vh);
+				-moz-transform: translateY(15vh);
+				-webkit-transform: translateY(15vh);
+				-ms-transform: translateY(15vh);
+				transform: translateY(15vh);
 			}
 
 			body.navPanel-visible #navPanel {
