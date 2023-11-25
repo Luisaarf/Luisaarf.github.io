@@ -2967,7 +2967,7 @@ input, select, textarea {
 					#navButton .toggle:before {
 						text-decoration: none;
 						font-style: normal;
-						content: '\f0c9';
+						content: '★';
 						color: #fff;
 						color: #f7d2c2;
 						text-align: center;
