@@ -3156,10 +3156,17 @@ input, select, textarea {
 				justify-content: center;
 				align-items: center;
 				margin: 2em 10em 2em 10em;
+				
+			}
+
+			#banner #bannerContent p{
+				padding-left: 0;
+				padding-right: 0;
+				width: 18rem;
 			}
 
 			#banner #bannerContent img {
-				width: 60%;
+				width: 10rem;
 			}
 
 		/* Sidebar */
@@ -3179,6 +3186,11 @@ input, select, textarea {
 			#footer {
 				padding-left: 1em;
 				padding-right: 1em;
+			}
+
+			#footer .copyright ul {
+				display: flex;
+				flex-direction: column;
 			}
 
 		/* Carousel */
