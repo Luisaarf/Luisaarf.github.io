@@ -256,6 +256,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#projectsBullets{
+				display: flex;
+				flex-direction: column;
+			}
+
 		}
 
 		@media screen and (max-width: 840px) {
