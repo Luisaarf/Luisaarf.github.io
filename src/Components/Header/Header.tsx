@@ -1,5 +1,7 @@
 import React from "react";
 import './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const Header = () => {
     return (
@@ -10,10 +12,11 @@ const Header = () => {
             </div>
             <nav className="head-nav">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="docs/Curriculo.pdf">Currículo</a></li>
+                    <li className="contactme_container">
+                        <a href="#contato"><FontAwesomeIcon icon={faEnvelope} /></a>
+                        <span className="contactme_caption">Contate-me</span>
+                    </li>
                 </ul>
             </nav>
         </div>

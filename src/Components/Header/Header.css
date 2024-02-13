@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 40px 20px;
     border-bottom: 1px solid #f2f2f2;
-    background-color: #66a678;
+    /* background-color: #66a678; */
+    background-color: #f1f6f1;
 }
 
 .head-title{
@@ -39,3 +40,41 @@
     text-decoration: none;
     color: #333;
 }
+
+.contactme_container{
+    position: relative;
+    display: inline-block;
+}
+
+.contactme_container .contactme_caption{
+    visibility: hidden;
+    position: absolute;
+    top: 1.5rem;
+    right: 0px;
+    width: 87px;
+    padding: 10px;
+    background-color: #66a678;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.contactme_container:hover .contactme_caption{
+    visibility: visible;
+    opacity: 1;
+}
+
+.contactme_caption:after {
+    content: '';
+    position: absolute;
+    top: 1px; 
+    right: 4px;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top-color: #66a678;
+    transform: rotate(180deg);
+    border-bottom: 0;
+    margin-left: -8px;
+    margin-top: -8px; 
+  }
