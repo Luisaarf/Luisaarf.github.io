@@ -12,6 +12,11 @@ const Header = () => {
             </div>
             <nav className="head-nav">
                 <ul>
+                    <li><select>
+                            <option value="pt">PT</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </li>
                     <li><a href="docs/Curriculo.pdf">Currículo</a></li>
                     <li className="contactme_container">
                         <a href="#contato"><FontAwesomeIcon icon={faEnvelope} /></a>

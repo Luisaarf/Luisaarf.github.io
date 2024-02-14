@@ -8,6 +8,7 @@ const Main = () => {
             <div className="main-text">
                 <h1>Bem-vindos(as) ao meu Portfólio</h1>
                 <p>Desenvolvedora Front-end</p>
+                <p>Desenvolvedora de Jogos</p>
                 <p>Estudante de Jogos e Entretenimento Digital</p>
                 <p>Entusiasta de tecnologia e inovação</p>
             </div>
