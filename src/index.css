@@ -1,11 +1,19 @@
 body {
   background-color: rgb(231, 231, 231);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'AvertaRegular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.head-title{
+  font-family: 'MyraBold', sans-serif;
+  font-size: 30px;
+}
+
+.main-text h1{
+  font-family: 'AvertaBold', sans-serif;
+  font-size: 40px;
 }
 
 code {

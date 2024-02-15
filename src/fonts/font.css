@@ -1,0 +1,24 @@
+@font-face {
+    font-family: MyraBold;
+    src: url(./Myra4FCaps-Bold.otf);
+}
+
+@font-face {
+    font-family: MyraRegular;
+    src: url(./Myra4FCaps-Regular.otf);
+}
+
+@font-face {
+    font-family: MyraLight;
+    src: url(./Myra4FCaps-Light.otf);
+}
+
+@font-face{
+    font-family: AvertaRegular;
+    src: url(./AvertaDemoPE-Regular.otf);
+}
+
+@font-face{
+    font-family: AvertaBold;
+    src: url(./AvertaDemoPE-ExtraboldItalic.otf);
+}

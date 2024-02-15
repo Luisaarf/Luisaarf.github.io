@@ -15,12 +15,19 @@
     
 }
 
-.head-nav ul{
+.head-nav .head-list{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+}
+
+.head-languages-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .head-nav ul li{
