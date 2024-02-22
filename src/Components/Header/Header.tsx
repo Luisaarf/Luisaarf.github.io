@@ -1,30 +1,16 @@
-import React, {useState} from "react";
+import { useContext } from 'react';
+import { LanguageContext } from '../../translations/Language';
 import './Header.css';
 import LanguageSelector from './LanguageSelector';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-// import '../../assets/brazilflag.png';
-
+import translationEn from '../../translations/en.json';
+import translationPt from '../../translations/pt-br.json';
+  
 const Header = () => {
+    const { language } = useContext(LanguageContext);
+    const translation = language === 'BR' ? translationPt : translationEn;
 
-
-    // const [selectedOption, setSelectedOption] = useState('');
-    // const [showOptions, setShowOptions] = useState(false);
-  
-    // const options = [
-    //   { value: 'pt', label: 'Option 1', image: '../../assets/brazilflag.png' },
-    //   { value: 'en', label: 'Option 2', image: '../../assets/Flag_of_the_USA.png' },
-    // ];
-
-    // const handleOptionClick = (option) => {
-    //     setSelectedOption(option.label);
-    //     setShowOptions(false);
-    //   };
-
-    const handleLanguageChange = (selectedLanguage: string) => {
-        console.log(`Idioma selecionado: ${selectedLanguage}`);
-      };
-  
     return (
         <div className="header">
             <div className="head-title">
@@ -34,12 +20,12 @@ const Header = () => {
             <nav className="head-nav">
                 <ul className="head-list">
                     <li className="head-languages-container">
-                        <LanguageSelector onChange={handleLanguageChange} />
+                        <LanguageSelector  />
                     </li>
-                    <li><a href="docs/Curriculo.pdf">Currículo</a></li>
+                    <li><a href="docs/Curriculo.pdf">{translation.Header.curriculum}</a></li>
                     <li className="contactme_container">
                         <a href="#contato"><FontAwesomeIcon icon={faEnvelope} /></a>
-                        <span className="contactme_caption">Contate-me</span>
+                        <span className="contactme_caption">{translation.Header.contactcaption}</span>
                     </li>
                 </ul>
             </nav>

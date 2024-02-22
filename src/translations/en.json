@@ -1,0 +1,13 @@
+{
+    "Header": {
+        "curriculum": "Resume",
+        "contactcaption": "Contact-me"
+      },
+    "Main": {
+        "greeting": "Welcome to my Portfolio",
+        "aboutme1": "Front-end Developer",
+        "aboutme2": "Game Developer",
+        "aboutme3": "Game and Digital Entertainment Student",
+        "aboutme4": "Technology and innovation enthusiast"
+      }
+}
