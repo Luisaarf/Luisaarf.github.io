@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import translationEn from '../../translations/en.json';
 import translationPt from '../../translations/pt-br.json';
+// import docCurriculum from '../../assets/docs/CurriculoLuisaRFoppa.pdf';
   
 const Header = () => {
     const { language } = useContext(LanguageContext);
@@ -22,7 +23,7 @@ const Header = () => {
                     <li className="head-languages-container">
                         <LanguageSelector  />
                     </li>
-                    <li><a href="docs/Curriculo.pdf">{translation.Header.curriculum}</a></li>
+                    <li><a href="assets\docs\CurriculoLuisaRFoppa.pdf" target='_blank'>{translation.Header.curriculum}</a></li>
                     <li className="contactme_container">
                         <a href="#contato"><FontAwesomeIcon icon={faEnvelope} /></a>
                         <span className="contactme_caption">{translation.Header.contactcaption}</span>

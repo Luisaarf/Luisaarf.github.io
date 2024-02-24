@@ -19,7 +19,7 @@ const Main = () => {
             </div>
             <div className="profilePic">
                 <div className="shadow"></div>
-                <img src={profilePic}/>
+                <img alt="This is me" src={profilePic}/>
             </div>
         </section>
     )
