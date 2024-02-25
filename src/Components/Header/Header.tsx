@@ -6,12 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import translationEn from '../../translations/en.json';
 import translationPt from '../../translations/pt-br.json';
-// import docCurriculum from '../../assets/docs/CurriculoLuisaRFoppa.pdf';
+import docCurriculum from '../../assets/docs/CurriculoLuisaRFoppa.pdf';
   
 const Header = () => {
     const { language } = useContext(LanguageContext);
     const translation = language === 'BR' ? translationPt : translationEn;
-
     return (
         <div className="header">
             <div className="head-title">
@@ -23,7 +22,10 @@ const Header = () => {
                     <li className="head-languages-container">
                         <LanguageSelector  />
                     </li>
-                    <li><a href="assets\docs\CurriculoLuisaRFoppa.pdf" target='_blank'>{translation.Header.curriculum}</a></li>
+                    <li><a href={docCurriculum}  target='_blank'>{translation.Header.curriculum}</a></li>
+                    {/* <div>
+                        <embed src={"assets/docs/CurriculoLuisaRFoppa.pdf"} type="application/pdf" width="100%" height="600px" />
+                     </div> */}
                     <li className="contactme_container">
                         <a href="#contato"><FontAwesomeIcon icon={faEnvelope} /></a>
                         <span className="contactme_caption">{translation.Header.contactcaption}</span>
