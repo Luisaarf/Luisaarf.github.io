@@ -23,13 +23,11 @@ const Header = () => {
                         <LanguageSelector  />
                     </li>
                     <li><a href={docCurriculum}  target='_blank'>{translation.Header.curriculum}</a></li>
-                    {/* <div>
-                        <embed src={"assets/docs/CurriculoLuisaRFoppa.pdf"} type="application/pdf" width="100%" height="600px" />
-                     </div> */}
                     <li className="contactme_container">
                         <a href="#contato"><FontAwesomeIcon icon={faEnvelope} /></a>
                         <span className="contactme_caption">{translation.Header.contactcaption}</span>
                     </li>
+
                 </ul>
             </nav>
         </div>
