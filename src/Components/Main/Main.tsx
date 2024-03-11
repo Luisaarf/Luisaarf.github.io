@@ -4,6 +4,7 @@ import './Main.css';
 import profilePic from '../../assets/luisarfoppa2.jpg';
 import translationEn from '../../translations/en.json';
 import translationPt from '../../translations/pt-br.json';
+import Technologies from './Technologies/Technologies';
 
 const Main = () => {
     const { language } = useContext(LanguageContext);
@@ -17,6 +18,7 @@ const Main = () => {
                 <p>{translation.Main.aboutme3}</p>
                 <p>{translation.Main.aboutme4}</p>
             </div>
+            <Technologies />
             <div className="profilePic">
                 <div className="shadow"></div>
                 <img alt="This is me" src={profilePic}/>
