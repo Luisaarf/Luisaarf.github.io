@@ -11,18 +11,20 @@ const Main = () => {
     const translation = language === 'BR' ? translationPt : translationEn;
     return (
         <section className="main">
-            <div className="main-text">
-                <h1>{translation.Main.greeting}</h1>
-                <p>{translation.Main.aboutme1}</p>
-                <p>{translation.Main.aboutme2}</p>
-                <p>{translation.Main.aboutme3}</p>
-                <p>{translation.Main.aboutme4}</p>
+            <div className="main-welcome">
+                <div className="main-text">
+                    <h1>{translation.Main.greeting}</h1>
+                    <p>{translation.Main.aboutme1}</p>
+                    <p>{translation.Main.aboutme2}</p>
+                    <p>{translation.Main.aboutme3}</p>
+                    <p>{translation.Main.aboutme4}</p>
+                </div>
+                <div className="profilePic">
+                    <div className="shadow"></div>
+                    <img alt="This is me" src={profilePic}/>
+                </div>
             </div>
             <Technologies />
-            <div className="profilePic">
-                <div className="shadow"></div>
-                <img alt="This is me" src={profilePic}/>
-            </div>
         </section>
     )
 }

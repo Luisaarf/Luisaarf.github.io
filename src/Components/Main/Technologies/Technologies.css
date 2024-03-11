@@ -1,0 +1,16 @@
+.technologyIcons{
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.technologyIcons span img {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    justify-self: center;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
