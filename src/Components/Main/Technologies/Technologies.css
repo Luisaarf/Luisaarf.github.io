@@ -8,9 +8,10 @@
 
 .technologyIcons span img {
     width: 40%;
+    border-radius: 20%;
     height: auto;
     margin: 10px;
     justify-self: center;
     transition: 0.3s;
-    box-shadow: 0px 30px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0px 30px 8px -6px rgba(0, 0, 0, 0.1); 
 }
