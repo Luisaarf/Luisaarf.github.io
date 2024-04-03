@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3b9f35d.css",
+    "main.js": "/static/js/main.d9c99445.js",
+    "static/media/CurriculoLuisaRFoppa.pdf": "/static/media/CurriculoLuisaRFoppa.84d5ae15c844b3b7c1ee.pdf",
+    "static/media/AvertaDemoPE-ExtraboldItalic.otf": "/static/media/AvertaDemoPE-ExtraboldItalic.808c597137515f14cb89.otf",
+    "static/media/AvertaDemoPE-Regular.otf": "/static/media/AvertaDemoPE-Regular.dde3fb23a03e03130ca9.otf",
+    "static/media/luisarfoppa2.jpg": "/static/media/luisarfoppa2.a0098a1d0fda698866e2.jpg",
+    "static/media/graphql.png": "/static/media/graphql.fc6b9451733c620ceb86.png",
+    "static/media/react.png": "/static/media/react.73dbb5bcec516da82694.png",
+    "static/media/postman.png": "/static/media/postman.f67f2e4a0711bbc15fed.png",
+    "static/media/Myra4FCaps-Bold.otf": "/static/media/Myra4FCaps-Bold.b1391e76b2923ef17d58.otf",
+    "static/media/Myra4FCaps-Regular.otf": "/static/media/Myra4FCaps-Regular.53950c3fefd50385f621.otf",
+    "static/media/Myra4FCaps-Light.otf": "/static/media/Myra4FCaps-Light.b3cebba83340d3e04106.otf",
+    "static/media/htmlcss.png": "/static/media/htmlcss.59888fca6d3263bd0b50.png",
+    "static/media/typescript.png": "/static/media/typescript.45b5fafbfc6cd4cb0426.png",
+    "static/media/unity.png": "/static/media/unity.43a9b85934639cd3cbf0.png",
+    "static/media/csharp.png": "/static/media/csharp.3de6a4fce9fb73d56886.png",
+    "index.html": "/index.html",
+    "main.d3b9f35d.css.map": "/static/css/main.d3b9f35d.css.map",
+    "main.d9c99445.js.map": "/static/js/main.d9c99445.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3b9f35d.css",
+    "static/js/main.d9c99445.js"
+  ]
+}
