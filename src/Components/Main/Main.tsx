@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { LanguageContext } from '../../translations/Language';
 import './Main.css';
-import profilePic from '../../assets/luisarfoppa2.jpg';
+import profilePic from '../../assets/eulu.jpg';
 import translationEn from '../../translations/en.json';
 import translationPt from '../../translations/pt-br.json';
 import Technologies from './Technologies/Technologies';
@@ -20,7 +20,7 @@ const Main = () => {
                     <p>{translation.Main.aboutme4}</p>
                 </div>
                 <div className="profilePic">
-                    <div className="shadow"></div>
+                    {/* <div className="shadow"></div> */}
                     <img alt="This is me" src={profilePic}/>
                 </div>
             </div>
