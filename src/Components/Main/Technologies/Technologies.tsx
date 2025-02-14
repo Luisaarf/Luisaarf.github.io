@@ -1,4 +1,4 @@
-import { csharp, unity, graphql , typescript, postman, react, htmlcss, python} from "../../../assets/technologies/iconhandler";
+import { csharp, unity, graphql , typescript, postman, react, htmlcss, python, godot} from "../../../assets/technologies/iconhandler";
 import './Technologies.css';
 
 const Technologies = () => {
@@ -13,6 +13,7 @@ const Technologies = () => {
             <span><img src={react} /></span>
             <span><img src={htmlcss} /></span>
             <span><img src={python} /></span>
+            <span><img src={godot} /></span>
         </view>
     )
 }

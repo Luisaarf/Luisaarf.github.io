@@ -6,5 +6,6 @@ import react from './react.png';
 import htmlcss from './htmlcss.png';
 import postman from './postman.png';
 import python from './python.png';
+import godot from './godot.png';
 
-export { csharp, unity, typescript, graphql, react, htmlcss, postman, python};
+export { csharp, unity, typescript, graphql, react, htmlcss, postman, python, godot};
