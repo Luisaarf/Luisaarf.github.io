@@ -1,17 +1,28 @@
+:root {
+  --bg: #efefef;
+  --text: #1c1f1d;
+}
+
+[data-theme="dark"] {
+  --bg: #1c1f1d;
+  --text: #efefef;
+}
+
 body {
-  background-color: rgb(231, 231, 231);
+  background-color: var(--bg);
+  color: var(--text);
   margin: 0;
   font-family: 'AvertaRegular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.head-title{
+.head-title {
   font-family: 'MyraBold', sans-serif;
   font-size: 30px;
 }
 
-.main-text h1{
+.main-text h1 {
   font-family: 'AvertaBold', sans-serif;
   font-size: 40px;
 }

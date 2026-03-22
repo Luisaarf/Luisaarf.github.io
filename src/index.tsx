@@ -4,8 +4,8 @@ import './reset.css';
 import './fonts/font.css'
 import './index.css';
 import { LanguageProvider } from './translations/Language';
-import Header  from './Components/Header/Header';
-import Main from './Components/Main/Main';
+import Header  from './pages/Header/Header';
+import Main from './pages/Main/Main';
 
 
 const root = ReactDOM.createRoot(
