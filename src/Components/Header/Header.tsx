@@ -41,7 +41,6 @@ const Header = () => {
                 className="header">
             <div className="head-title">
                 <p>Lu Foppa</p>
-                {/* Deixar imagem ou só texto?  */}
             </div>
             <nav style={{ 
                 height: scrolled ? '0px' : '40px',  

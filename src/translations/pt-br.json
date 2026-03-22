@@ -5,9 +5,9 @@
       },
     "Main": {
         "greeting": "Bem-vindos(as) ao meu Portfólio",
-        "aboutme1": "Desenvolvedora Front-end",
-        "aboutme2": "Desenvolvedora de Jogos",
-        "aboutme3": "Bacharel em Design de Games (UNIVALI)",
-        "aboutme4": ""
+        "aboutme1": "Desenvolvedora Front-end e de Jogos",
+        "aboutme2": "Bacharel em Design de Games (UNIVALI)",
+        "aboutme3": "",
+        "tagline": "Desenvolvimento com foco em performance e usabilidade."
       }
 }

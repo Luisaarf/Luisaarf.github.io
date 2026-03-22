@@ -5,9 +5,9 @@
       },
     "Main": {
         "greeting": "Welcome to my Portfolio",
-        "aboutme1": "Front-end Developer",
-        "aboutme2": "Game Developer",
-        "aboutme3": "Game Design Bachelor's Degree (UNIVALI)",
-        "aboutme4": ""
+        "aboutme1": "Game and Front-end Developer",
+        "aboutme2": "Game Design Bachelor's Degree (UNIVALI)",
+        "aboutme3": "",
+        "tagline": "Development focused on performance and usability."
       }
 }
