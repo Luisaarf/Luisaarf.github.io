@@ -1,4 +1,4 @@
-import { useContext , useEffect, useState} from 'react';
+import { useContext , useEffect, useState, useCallback} from 'react';
 import { LanguageContext } from '../../translations/Language';
 import './Header.css';
 import LanguageSelector from './LanguageSelector';
@@ -21,22 +21,21 @@ const Header = () => {
         return docCurriculum
     }
 
-    window.onscroll = function() {scrollFunction()};
-
-    const scrollFunction = () => {
-        document.body.scrollTop > 20 || document.documentElement.scrollTop > 20? setScrolled(true) : setScrolled(false);
-    }
+    const scrollFunction = useCallback(() => {
+        setScrolled( document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+    }, []);
 
     useEffect(() => {
         window.addEventListener('scroll', scrollFunction);
         return () => window.removeEventListener('scroll', scrollFunction);
-    }, []);
+    }, [scrollFunction]);
 
     return (
         <div style={{ 
                 height: scrolled ? '20px' : '40px',  
                 transition: 'all 0.3s ease-in-out',
                 backgroundColor: scrolled ? 'rgb(102, 166, 120)' : 'rgb(241, 246, 241)',
+                borderBottom: scrolled ? 'none' : '1px solid #f2f2f2',
                 }} 
                 className="header">
             <div className="head-title">
